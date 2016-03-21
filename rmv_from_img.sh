@@ -1,0 +1,1 @@
+../espresso/rmv_from_img.sh
