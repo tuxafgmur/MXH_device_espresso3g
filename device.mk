@@ -15,7 +15,7 @@
 #
 
 # Include espresso-common makefile
-$(call inherit-product, device/samsung/espresso/espresso-common.mk)
+$(call inherit-product, device/samsung/espressowifi/espresso-common.mk)
 
 # Include 3g overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay/aosp
@@ -25,8 +25,7 @@ PRODUCT_COPY_FILES += \
     device/samsung/espresso3g/configs/audio_policy.conf:system/etc/audio_policy.conf
 
 # Packages
-PRODUCT_PACKAGES += \
-    SamsungServiceMode
+PRODUCT_PACKAGES += SamsungServiceMode
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \

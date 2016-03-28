@@ -1,1 +1,1 @@
-../espresso/custom_boot.sh
+../espressowifi/custom_boot.sh

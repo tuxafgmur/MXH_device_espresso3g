@@ -1,1 +1,1 @@
-../espresso/rmv_from_img.sh
+../espressowifi/rmv_from_img.sh

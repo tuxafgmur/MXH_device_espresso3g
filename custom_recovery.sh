@@ -1,1 +1,1 @@
-../espresso/custom_recovery.sh
+../espressowifi/custom_recovery.sh
