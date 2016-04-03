@@ -20,7 +20,7 @@ include device/samsung/espressowifi/BoardConfigCommon.mk
 TARGET_SPECIFIC_HEADER_PATH += device/samsung/espresso3g/include
 
 # assert
-TARGET_OTA_ASSERT_DEVICE := espressorf,espressorfxx,p3100,GT-P3100,espresso10rf,espresso10rfxx,p5100,GT-P5100
+TARGET_OTA_ASSERT_DEVICE := espresso3g,espressorf,espressorfxx,p3100,GT-P3100,espresso10rf,espresso10rfxx,p5100,GT-P5100
 
 # RIL
 BOARD_VENDOR := samsung
