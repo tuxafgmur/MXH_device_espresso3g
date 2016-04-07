@@ -29,5 +29,8 @@ $(call inherit-product, vendor/xenonhd/products/common_drm.mk)
 DEVICE_PACKAGE_OVERLAYS += device/samsung/espresso3g/overlay/xenonhd
 DEVICE_PACKAGE_OVERLAYS += device/samsung/espressowifi/overlay/xenonhd-common
 
+# Packages
+PRODUCT_PACKAGES += SamsungServiceMode
+
 # Inherit specific configuration
 $(call inherit-product, device/samsung/espresso3g/aosp_espresso3g.mk)
