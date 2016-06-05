@@ -1,1 +1,0 @@
-../espressowifi/rmv_from_img.sh
