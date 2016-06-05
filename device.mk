@@ -41,5 +41,5 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml \
     frameworks/native/data/etc/android.software.sip.xml:system/etc/permissions/android.software.sip.xml
 
-# Use the non-open-source parts, if they're present
-$(call inherit-product-if-exists, vendor/samsung/espresso3g/espresso3g-vendor.mk)
+# Use the non-open-source parts.
+$(call inherit-product, device/samsung/espresso3g/blobs/espresso3g-blobs.mk)
