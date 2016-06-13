@@ -21,15 +21,13 @@ TARGET_SCREEN_WIDTH := 600
 # Device have its own init.rc
 TARGET_PROVIDES_INIT_RC := true
 
-# Inherit common CM configuration
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit common configuration
+$(call inherit-product, vendor/xenonhd/products/common_tablet.mk)
+$(call inherit-product, vendor/xenonhd/products/common_drm.mk)
 
-# CyanogenMod specific overlay
-DEVICE_PACKAGE_OVERLAYS += device/samsung/espresso3g/overlay/cm
-DEVICE_PACKAGE_OVERLAYS += device/samsung/espressowifi/overlay/cm-common
+# Specific overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/espresso3g/overlay/xenonhd
+DEVICE_PACKAGE_OVERLAYS += device/samsung/espressowifi/overlay/xenonhd-common
 
-# Inherit device specific configuration
+# Inherit specific configuration
 $(call inherit-product, device/samsung/espresso3g/aosp_espresso3g.mk)
-
-# Device identifier. This must come after all inclusions
-PRODUCT_NAME := cm_espresso3g

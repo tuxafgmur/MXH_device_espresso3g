@@ -15,7 +15,7 @@
 #
 
 # Include common espresso BoardConfig
-include device/samsung/espressowifi/BoardConfigCommon.mk
+-include device/samsung/espressowifi/BoardConfigCommon.mk
 
 TARGET_SPECIFIC_HEADER_PATH += device/samsung/espresso3g/include
 
