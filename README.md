@@ -14,5 +14,4 @@ Including blobs from TheMuppets/proprietary_vendor_samsung - cm-13.0
 
 Depending on:
     android_device_samsung_espressowifi
-    android_hardware_samsung
     android_packages_apps_SamsungServiceMode
